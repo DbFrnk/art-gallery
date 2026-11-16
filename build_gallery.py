@@ -2,7 +2,7 @@ import base64, json, mimetypes, os, secrets, sqlite3
 from datetime import datetime, timezone
 from cryptography.hazmat.primitives.ciphers.aead import AESGCM
 
-BASE_SHARE_URL = "https://github.io"
+BASE_SHARE_URL = "https://dbfrnk.github.io/art-gallery"
 DB_PATH = os.path.abspath("../GreetingCardApp02/creative_hub.db")
 TEMPLATE_PATH = "src/gallery_template.html"
 OUT_DIR = "docs/exhibitions"
